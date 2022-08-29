@@ -1,0 +1,84 @@
+@import "~antd/dist/antd.css";
+@import "leaflet/dist/leaflet.css";
+
+#root {
+  height: 100vh;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  margin: 24px 16px;
+  padding: 0;
+  min-height: 480;
+}
+
+.head {
+  font-size: 30px;
+}
+
+.containerLeft {
+  padding: 130px 10px 0 40px;
+  overflow-x: scroll !important;
+}
+.containerCenter {
+  padding: 130px 40px 0 10px;
+}
+
+.resize-handle-horizon {
+  margin-top: 130px;
+}
+
+.table {
+  min-width: 270px;
+}
+
+.adress-selected {
+  background-color: #ddd !important;
+}
+
+.adress-selected:hover > td {
+  background-color: rgb(102, 96, 96) !important;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.ant-table-row {
+  cursor: pointer;
+}
+
+.ant-table-row:hover > td {
+  background-color: rgb(102, 96, 96) !important;
+}
+
+.contents {
+  width: 100%;
+  display: grid;
+  place-items: start;
+  transition: filter 0.2s ease-out, background-color 0.2s ease-out;
+  font-size: 16px;
+}
+
+.latlng {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.leaflet-control-container .leaflet-routing-container-hide {
+  width: 40px;
+  height: 40px;
+}
+
+.leaflet-bar {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 0px;
+}
+
+.leaflet-routing-container,
+.leaflet-routing-error {
+  background-color: white;
+  padding-top: 3px;
+  transition: all 0.2s ease;
+}
